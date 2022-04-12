@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    width: 1600px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+/* Menu */
+
+.menu {
+    margin: 0;
+    width: 100%;
+    max-width: 1600px;
+    max-height: 960px;
+    line-height: normal;
+}
+
+/* Menu-up */
+
+.menu-up {
+    padding-top: 14px;
+
+}
+
+.nav {
+    text-align: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 200px;
+}
+
+.nav__link {
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    color: #363636;
+    text-decoration: none;
+}
+
+.nav__link:last-child {
+    margin-right: 0px;
+}
+
+.line {
+    
+    border: 1px solid #F5F5F5;
+    width: 1200px;
+}
+
+/* Menu__logo*/
+
+.menu__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 0 45px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* .alex-mebel {
+    margin: 0;
+    padding: 0;
+    width: 107,5;
+}
+
+.logo-alex {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 14px;
+    -webkit-text-stroke: 0.7px #14002F;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #6C0BF4;
+    margin: 0 1px;
+}
+
+.logo-mebel {
+    display: inline-block;
+    font-family: 'Source Serif Pro';
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 0.7px #865432;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #F46E0B;
+    margin: 0 5px;
+
+}
+
+.name__company {
+    display: block;
+    text-align: center;
+    margin: auto 0 7px;
+}
+
+.mebel-dly {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 20px;
+    -webkit-text-stroke: 0.7px #14002F;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #6C0BF4;
+    margin: 0;
+}
+
+.kuhni-dom {
+    display: block;
+    font-family: 'Source Serif Pro';
+    font-size: 20px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 0.7px #865432;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #F46E0B;
+    margin: 0;
+} */
+
+.header__map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.city__map p {
+    margin: 5px 0;
+}
+
+.phone__number {
+    padding-left: 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.tel {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #363636;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.work__time {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #929292;
+    text-decoration: none;
+    margin: 7px;
+}
+
+.but__call {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #F46E0B;
+    padding: 20px 45px;
+    border-radius: 5px;
+    border: #F46E0B;
+    cursor: pointer;
+}
+
+.live__button {
+    margin: 5px;
+}
+
+/* menu__down */
+
+.menu__down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #AA6EFF;
+}
+
+.main__menu {
+    display: block;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background: #AA6EFF;
+    border: #AA6EFF;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.35;
+}
+
+.main__menu:hover {
+    background: #6C0BF4;
+}
+
+.stick {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 15px;
+    border-left: 2px solid #6C0BF4;
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    width: 250px;
+    height: 40px;
+}
+

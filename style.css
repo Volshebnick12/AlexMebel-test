@@ -652,7 +652,7 @@ h4 {
 
 .footer__wrapper {
     margin: 0 auto;
-    min-width: 1600px;
+    width: 1600px;
     height: 636px;
     background: #AA6EFF url(image/Rectangle\ 70.jpg) no-repeat;
     padding-top: 25px;

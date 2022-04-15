@@ -418,7 +418,7 @@ h2 {
     margin-left: 0;
     margin-top: 20px;
     padding: 0;
-    content: url("/image/sale.png");
+    content: url("image/sale.png");
 }
 
 .cards__arrows {
@@ -613,12 +613,12 @@ h4 {
     text-transform: uppercase;
     padding: 10px 15px;
     transition: background .3s ease-out;
-    background-image: url(/image/arrow-right-circle.svg) no-repeat 10px 10px;
+    background-image: url(image/arrow-right-circle.svg) no-repeat 10px 10px;
     align-items: center;
 }
 
 .questions__title::after {
-    content: url(/image/arrow-right-circle.svg);
+    content: url(image/arrow-right-circle.svg);
     display: inline-block;
     transition: all .3s ease-in-out;
     height: 50px;
@@ -665,11 +665,15 @@ h4 {
 
 /* Footer */
 
+.footer {
+    display: flexbox;
+}
+
 .footer__wrapper {
     margin: 0;
     width: 1600px;
     height: 636px;
-    background: #AA6EFF url(/image/Rectangle\ 70.jpg) no-repeat;
+    background: #AA6EFF url(image/Rectangle\ 70.jpg) no-repeat;
     padding-top: 25px;
 }
 

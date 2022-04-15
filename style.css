@@ -8,7 +8,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     height: 100%;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
 }
 
 h1,
@@ -619,7 +620,7 @@ h4 {
 
 .questions__title::after {
     content: url(image/arrow-right-circle.svg);
-    display: inline-block;
+    display: flexbox\;
     transition: all .3s ease-in-out;
     height: 50px;
 }
